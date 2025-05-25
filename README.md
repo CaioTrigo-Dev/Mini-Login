@@ -12,6 +12,8 @@ Tecnologias Utilizadas
 PHP: Linguagem de script server-side para toda a lógica de backend e a geração dinâmica do HTML.
 CSS: Para estilização da interface do usuário (Style.css para o login e telaLogada.css para a área restrita).
 Como Executar o Projeto
+
+DEMONSTRAÇÂO DO PROJETO : ![Image](https://github.com/user-attachments/assets/8fc68dfc-6579-49b1-9cec-51ae64fdff99)
 Para colocar este projeto para rodar em seu ambiente de desenvolvimento local, siga as instruções abaixo:
 
 Pré-requisitos:
