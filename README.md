@@ -12,7 +12,7 @@ Tecnologias Utilizadas
 PHP: Linguagem de script server-side para toda a lógica de backend e a geração dinâmica do HTML.
 CSS: Para estilização da interface do usuário (Style.css para o login e telaLogada.css para a área restrita).
 
-![Demonstração do Mini Login PHP](assets/mini-login-demo.gif)
+[Demonstração do Mini Login PHP](assets/mini-login-demo.gif)
 
 
 Como Executar o Projeto
