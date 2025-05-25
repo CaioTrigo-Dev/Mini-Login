@@ -1,55 +1,77 @@
-Sistema de Login Básico com PHP
-Este projeto é um exemplo de um sistema de login simples, construído inteiramente com PHP para a lógica e a geração de HTML, e CSS para a estilização visual. Ele demonstra conceitos fundamentais como processamento de formulários, validação básica e gerenciamento de sessões.
+# 🛡️ Sistema de Login Básico com PHP
 
-Funcionalidades
-Página de Login (login.php): Formulário para entrada de usuário e senha.
-Validação de Credenciais: Verifica o usuário e senha (definidos fixamente no código PHP para demonstração).
-Gerenciamento de Sessão: Utiliza sessões PHP para manter o estado de login do usuário.
-Página Protegida (registrado.php): Acessível apenas para usuários autenticados.
-Funcionalidade de Logout (logout.php): Encerra a sessão do usuário.
-Feedback Visual: Exibe "Acesso Negado" apenas após uma tentativa de login falha.
-Tecnologias Utilizadas
-PHP: Linguagem de script server-side para toda a lógica de backend e a geração dinâmica do HTML.
-CSS: Para estilização da interface do usuário (Style.css para o login e telaLogada.css para a área restrita).
-Como Executar o Projeto
+Este projeto é um exemplo funcional de um sistema de login simples, criado com **PHP** e **CSS**, ideal para quem está aprendendo conceitos como **validação de formulários**, **sessões**, **controle de acesso** e **feedback visual**.
 
-Para colocar este projeto para rodar em seu ambiente de desenvolvimento local, siga as instruções abaixo:
+---
 
-Pré-requisitos:
+## 🔧 Funcionalidades
 
-Um servidor web com suporte a PHP (como XAMPP, WAMP ou MAMP) instalado e configurado em sua máquina.
-Estrutura de Pastas:
+- 🔐 **Página de Login** (`login.php`): Formulário para entrada de usuário e senha.
+- 🛑 **Validação de Credenciais**: Confere usuário e senha fixos no código (modo demonstração).
+- 🔄 **Gerenciamento de Sessões**: Mantém o usuário autenticado usando sessões PHP.
+- ✅ **Página Protegida** (`registrado.php`): Só acessível para usuários autenticados.
+- 🚪 **Logout** (`logout.php`): Encerra a sessão do usuário.
+- ⚠️ **Feedback Visual**: Mensagem de "Acesso Negado" exibida apenas após uma tentativa inválida.
 
-Crie uma pasta para o seu projeto dentro do diretório htdocs do seu servidor web. Por exemplo, se o nome da sua pasta for meu_login_php, o caminho completo seria algo como /opt/lampp/htdocs/meu_login_php/ no Linux.
+---
 
-Dentro dessa pasta, organize seus arquivos da seguinte forma:
+## 🛠️ Tecnologias Utilizadas
 
-/meu_login_php/
-├── login.php           # Página principal de login
-├── registrado.php      # Página acessível apenas após o login
-├── logout.php          # Script para encerrar a sessão
-└── css/                # Pasta para os arquivos CSS
-    ├── Style.css       # Estilos para a página de login
-    └── telaLogada.css  # Estilos para a página registrada
-Copie os Arquivos:
+- **PHP**: Lógica de autenticação e controle de sessão.
+- **CSS**: Estilização das páginas.
+  - `Style.css` – Tela de login
+  - `telaLogada.css` – Tela após login
 
-Transfira seus arquivos (login.php, registrado.php, logout.php e a pasta css com seus estilos) para a pasta meu_login_php que você criou dentro de htdocs.
-Inicie o Servidor Apache:
+---
 
-Se estiver usando XAMPP no Linux, abra seu terminal e execute:
-Bash
+## 📁 Estrutura do Projeto
 
-sudo /opt/lampp/lampp start
-Para outros sistemas operacionais ou servidores, inicie o Apache conforme a documentação deles.
-Acesse o Projeto no Navegador:
+meu_login_php/
+├── login.php # Tela de login
+├── registrado.php # Página protegida
+├── logout.php # Encerra a sessão
+└── css/
+├── Style.css # Estilo da tela de login
+└── telaLogada.css # Estilo da tela após login
 
-Abra seu navegador de preferência e digite a seguinte URL:
-http://localhost/meu_login_php/login.php
-(Ajuste meu_login_php para o nome real da sua pasta de projeto).
-Credenciais de Teste
-Para testar o sistema de login, utilize as seguintes credenciais:
+---
+
+## 🚀 Como Executar Localmente
+
+### Pré-requisitos:
+
+- Um servidor com suporte a PHP (como **XAMPP**, **WAMP**, **MAMP**, ou **LAMP**).
+
+### Passo a Passo:
+
+1. **Clone ou copie o projeto** para o diretório `htdocs` do seu servidor web local:
+
+   ```bash
+   /opt/lampp/htdocs/meu_login_php/
+
+
+   
+🧪 Credenciais de Teste
+Use os seguintes dados para acessar o sistema:
 
 Usuário: admin
+
 Senha: admin
 
-https://github.com/user-attachments/assets/f22f7374-8c72-4742-8213-3124d4d2fb33
+
+
+📌 Observações
+🔐 Este sistema foi criado apenas para fins didáticos. Não deve ser utilizado em produção sem implementações adequadas de segurança, como uso de banco de dados, hash de senha, proteção contra CSRF e SQL Injection.
+
+
+
+📄 Licença
+Este projeto está sob a licença MIT. Sinta-se livre para utilizar, modificar e distribuir!
+
+
+
+🙋‍♂️ Autor
+Desenvolvido por Caio Cesar
+
+
+https://github.com/user-attachments/assets/084a8290-dda8-4236-ab0e-c4838959d9c7
