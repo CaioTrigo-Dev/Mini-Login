@@ -22,19 +22,7 @@ Este projeto é um exemplo funcional de um sistema de login simples, criado com 
   - `Style.css` – Tela de login
   - `telaLogada.css` – Tela após login
 
----
 
-## 📁 Estrutura do Projeto
-
-meu_login_php/
-├── login.php # Tela de login
-├── registrado.php # Página protegida
-├── logout.php # Encerra a sessão
-└── css/
-├── Style.css # Estilo da tela de login
-└── telaLogada.css # Estilo da tela após login
-
----
 
 ## 🚀 Como Executar Localmente
 
